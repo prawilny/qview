@@ -4,7 +4,8 @@ Release:        1%{?dist}
 Summary:        Qt image viewer designed with minimalism and usability in mind
 License:        GPLv3
 URL:            https://github.com/jurplel/%{name}
-Source0:        https://github.com/jurplel/%{name}/archive/refs/tags/%{version}.tar.gz
+# wget https://github.com/jurplel/%{name}/archive/refs/tags/%{version}.tar.gz
+Source0:        %{version}.tar.gz
 BuildRequires:  make
 BuildRequires:  qt5-qttools-devel
 BuildRequires:  qt5-qtbase-devel
